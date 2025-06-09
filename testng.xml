@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Testing Suite">
+    <test name="E-commerce API Tests">
+        <classes>
+            <class name="com.example.tests.EcommerceApiTests"/>
+        </classes>
+    </test>
+    
+    <test name="User Authentication Tests">
+        <classes>
+            <class name="com.example.tests.UserAuthenticationTests"/>
+        </classes>
+    </test>
+    
+    <test name="Performance Tests">
+        <classes>
+            <class name="com.example.tests.PerformanceTests"/>
+        </classes>
+    </test>
+    
+    <test name="Schema Validation Tests">
+        <classes>
+            <class name="com.example.tests.JsonSchemaValidationTests"/>
+        </classes>
+    </test>
+</suite>
